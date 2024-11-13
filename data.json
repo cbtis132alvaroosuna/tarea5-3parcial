@@ -1,0 +1,62 @@
+[
+    {
+        "titulo": "Hamburguesa Clásica",
+        "descripcion": "Hamburguesa de carne de res, lechuga, tomate y queso cheddar.",
+        "imagen": "imagen1.jpg",
+        "costo": 75
+    },
+    {
+        "titulo": "Hamburguesa BBQ",
+        "descripcion": "Carne de res a la parrilla con salsa BBQ, cebolla caramelizada y queso suizo.",
+        "imagen": "imagen2.jpg",
+        "costo": 85
+    },
+    {
+        "titulo": "Hamburguesa Doble Queso",
+        "descripcion": "Doble carne de res con doble queso cheddar y pepinillos.",
+        "imagen": "imagen3.jpg",
+        "costo": 90
+    },
+    {
+        "titulo": "Hamburguesa Mexicana",
+        "descripcion": "Carne de res, jalapeños, guacamole y queso pepper jack.",
+        "imagen": "imagen4.jpg",
+        "costo": 95
+    },
+    {
+        "titulo": "Hamburguesa Pollo Crispy",
+        "descripcion": "Crujiente pechuga de pollo, lechuga y mayonesa especial.",
+        "imagen": "imagen5.jpg",
+        "costo": 80
+    },
+    {
+        "titulo": "Hamburguesa Vegana",
+        "descripcion": "Hamburguesa con patty vegano, lechuga, tomate y queso vegano.",
+        "imagen": "imagen6.jpg",
+        "costo": 100
+    },
+    {
+        "titulo": "Hamburguesa Italiana",
+        "descripcion": "Carne de res, queso mozzarella, pepperoni y pesto.",
+        "imagen": "imagen7.jpg",
+        "costo": 105
+    },
+    {
+        "titulo": "Hamburguesa Tocino",
+        "descripcion": "Carne de res, queso cheddar y crujiente tocino ahumado.",
+        "imagen": "imagen8.jpg",
+        "costo": 95
+    },
+    {
+        "titulo": "Hamburguesa Hawaiana",
+        "descripcion": "Carne de res, piña asada, jamón y queso suizo.",
+        "imagen": "imagen9.jpg",
+        "costo": 85
+    },
+    {
+        "titulo": "Hamburguesa Picante",
+        "descripcion": "Carne de res, jalapeños y salsa picante especial.",
+        "imagen": "imagen10.jpg",
+        "costo": 90
+    }
+]

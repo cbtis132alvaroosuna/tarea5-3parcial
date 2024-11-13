@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #ff8a00, #e52e71);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #ffeb3b;
+}
+
+#productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 2rem;
+}
+
+.producto {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    /* Añadir animación flotante */
+    animation: float 3s ease-in-out infinite;
+}
+
+.producto h2 {
+    font-size: 1.5rem;
+    color: #e52e71;
+    margin: 1rem 0;
+}
+
+.producto p {
+    padding: 0 1rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.producto span {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin: 1rem 0;
+}
+
+button {
+    background-color: #ff8a00;
+    border: none;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e52e71;
+}
+
+/* Animación de flotación */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
